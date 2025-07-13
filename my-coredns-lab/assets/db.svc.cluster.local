@@ -1,0 +1,15 @@
+ 3600
+ svc.cluster.local.
+
+@   IN  SOA ns.svc.cluster.local. admin.svc.cluster.local. (
+        2025071301 ; serial
+        3600       ; refresh
+        1800       ; retry
+        604800     ; expire
+        86400 )    ; minimum
+
+    IN  NS   ns.svc.cluster.local.
+ns  IN  A    127.0.0.1
+
+api.default.svc.cluster.local.    IN  A    10.96.0.1
+web.default.svc.cluster.local.    IN  A    10.96.0.2

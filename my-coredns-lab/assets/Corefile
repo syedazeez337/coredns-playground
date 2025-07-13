@@ -1,0 +1,17 @@
+hello.dev {
+    file db.hello.dev
+    log
+    errors
+}
+
+svc.cluster.local {
+    file db.svc.cluster.local
+    log
+    errors
+}
+
+. {
+    forward . 8.8.8.8
+    log
+    errors
+}

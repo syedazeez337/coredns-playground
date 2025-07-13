@@ -1,0 +1,13 @@
+ 3600
+ hello.dev.
+
+@   IN  SOA ns.hello.dev. admin.hello.dev. (
+        2025071301 ; serial
+        3600       ; refresh
+        1800       ; retry
+        604800     ; expire
+        86400 )    ; minimum
+
+    IN  NS   ns.hello.dev.
+ns  IN  A    127.0.0.1
+@   IN  A    1.2.3.4

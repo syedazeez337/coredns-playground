@@ -1,0 +1,10 @@
+slug: my-coredns-lab
+title: CoreDNS Playground
+description: Learn how CoreDNS works by building it from source, serving zones, and mimicking Kubernetes DNS.
+difficulty: beginner
+tags:
+  - DNS
+  - CoreDNS
+  - Kubernetes
+  - Networking
+  - GoLang
